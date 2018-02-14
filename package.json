@@ -1,0 +1,21 @@
+{
+  "name": "colista",
+  "version": "0.0.1",
+  "description": "Synchronised shopping list app back-end",
+  "main": "./server/index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Anthony Williams",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.3.0",
+    "supertest": "^3.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "koa-router": "^7.4.0"
+  }
+}
