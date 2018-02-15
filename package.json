@@ -4,18 +4,28 @@
   "description": "Synchronised shopping list app back-end",
   "main": "./server/index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node -- ./src/index.js",
     "test": "jest --watchAll"
   },
   "author": "Anthony Williams",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.2.2",
+    "babel-preset-es2015": "^6.24.1",
     "jest": "^22.3.0",
+    "regenerator-runtime": "^0.11.1",
     "supertest": "^3.0.0"
   },
   "jest": {
     "testEnvironment": "node"
   },
   "dependencies": {
-    "koa-router": "^7.4.0"
+    "koa": "^2.0.0-alpha.8",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.0.5"
   }
 }

@@ -1,0 +1,20 @@
+//{ "presets": ["es2015", { "modules": false }] }
+
+{
+  "presets": [
+    [
+      "es2015",
+      "env"
+    ]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "es2015",
+          "env"
+        ]
+      ]
+    }
+  }
+}
